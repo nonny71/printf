@@ -47,7 +47,8 @@ int handle_write_char(char c, char buffer[],
 /**
  * write_number - Prints a string
  * @buffer: Buffer array to handle print
- * @c: char c
+ * @is_negative: Lista of arguments
+ * @ind: char types.
  * @flags: Calculates active flags
  * @width: get width.
  * @precision: precision specifier
